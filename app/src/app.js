@@ -1,7 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Counter } from './Counter.js'
+import { Repos } from './Repos.js'
+import { Todo } from './Todo.js'
 
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
+
+render(
+  /*<Counter />,*/
+  /*<Repos />,*/
+  <Todo />,
   document.getElementById('app')
 );
